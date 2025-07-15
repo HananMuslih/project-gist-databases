@@ -51,3 +51,4 @@ def test_import_with_non_existent_user_raises(
 
     with pytest.raises(exceptions.HTTPError):
         import_gists_to_database(gists_database, 'rmotr-doesnt-exist')
+        
